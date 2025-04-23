@@ -6,7 +6,7 @@
 
 ### 1.
 
-```/*
+```JS /*
 Implement a function limit that accepts a callback and a number n, which restricts invocation of the callback to at most n times. Subsequent calls of the created function will return the result of the last invocation of the callback function.*/
 
 function createGreeting(name, language) {
@@ -31,7 +31,7 @@ console.log(limitedGreeting("John", "english"));   // Still "Bonjour, Marie!"
 
 ### 3.
 
-```// Find Element Appearing More than N/3 Times
+```JS // Find Element Appearing More than N/3 Times
 
 const nums = [1, 2, 3, 1, 1, 2, 2];
 
@@ -42,7 +42,7 @@ output: [1, 2] // (7/3 = 2.33 → anything appearing more than 2 times)
 
 ### 1.
 
-```
+```JS
 type Animal = { name: string; fly?: boolean; swim?: boolean };
 
 function canFly(animal: Animal): boolean {
@@ -62,7 +62,7 @@ console.log(canFly(fish));  // Output: false
 
 ### 3.
 
-```
+```JS
 type Person = {
   name: string;
   name1: string;
