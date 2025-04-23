@@ -1,4 +1,4 @@
-# Hello this repository is dedicated for the the codes I wrote for the practical exam
+# Hello this repository is dedicated for the codes I wrote for the practical exam
 
 ## I had Set 2 for the implementation
 
