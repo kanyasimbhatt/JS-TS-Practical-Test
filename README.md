@@ -1,4 +1,4 @@
-# Hello this is repository is dedicated for the the codes I wrote for the practical exam
+# Hello this repository is dedicated for the the codes I wrote for the practical exam
 
 ## I had Set 2 for the implementation
 
@@ -25,7 +25,8 @@ console.log(limitedGreeting("Marie", "french"));   // "Bonjour, Marie!"
 console.log(limitedGreeting("John", "english"));   // Still "Bonjour, Marie!"
 ```
 
-### 2.  
+### 2.
+
 ` Implement a deepFreeze(obj) function that recursively applies Object.freeze() to an object and all nested objects or arrays, making the entire structure fully immutable. This ensures no part of the object can be modified after freezing.`
 
 ### 3.
@@ -56,7 +57,8 @@ console.log(canFly(fish));  // Output: false
 ```
 
 ### 2.
- `type Rev1 = ReverseString<"abc">;       // Expected: "cba" `
+
+`type Rev1 = ReverseString<"abc">;       // Expected: "cba" `
 
 ### 3.
 
