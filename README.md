@@ -4,7 +4,7 @@
 
 #### Javascript questions I had:
 
-1.
+### 1.
 
 ```/*
 Implement a function limit that accepts a callback and a number n, which restricts invocation of the callback to at most n times. Subsequent calls of the created function will return the result of the last invocation of the callback function.*/
@@ -25,9 +25,10 @@ console.log(limitedGreeting("Marie", "french"));   // "Bonjour, Marie!"
 console.log(limitedGreeting("John", "english"));   // Still "Bonjour, Marie!"
 ```
 
-2.  ` Implement a deepFreeze(obj) function that recursively applies Object.freeze() to an object and all nested objects or arrays, making the entire structure fully immutable. This ensures no part of the object can be modified after freezing.`
+### 2.  
+` Implement a deepFreeze(obj) function that recursively applies Object.freeze() to an object and all nested objects or arrays, making the entire structure fully immutable. This ensures no part of the object can be modified after freezing.`
 
-3.
+### 3.
 
 ```// Find Element Appearing More than N/3 Times
 
@@ -38,7 +39,7 @@ output: [1, 2] // (7/3 = 2.33 → anything appearing more than 2 times)
 
 #### Typescript questions I had:
 
-1.
+### 1.
 
 ```
 type Animal = { name: string; fly?: boolean; swim?: boolean };
@@ -54,9 +55,10 @@ console.log(canFly(bird));  // Output: true
 console.log(canFly(fish));  // Output: false
 ```
 
-2.  `type Rev1 = ReverseString<"abc">;       // Expected: "cba" `
+### 2.
+ `type Rev1 = ReverseString<"abc">;       // Expected: "cba" `
 
-3.
+### 3.
 
 ```
 type Person = {
