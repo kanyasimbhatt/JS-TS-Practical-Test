@@ -27,4 +27,4 @@ function returnMoreOccuringElements(arr) {
   return output;
 }
 
-console.log(returnMoreOccuringElements([1, 2, 3, 1, 1, 2, 2, 3, 3, 3]));
+console.log(returnMoreOccuringElements([1, 2, 1, 1, 2, 2, 3, 3, 2, 2]));
